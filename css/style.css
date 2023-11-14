@@ -8,16 +8,21 @@
 header{
     background: #fff;
     height: 80px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 }
 
 .sidebar{
+    margin-top: 80px;
     width: 80px;
     background-color: rgb(16, 16, 49);
 }
 .main-content{
+    margin-top: 80px;
     background-color: aquamarine;
     width: calc(100vw - 80px);
-    height: 800px;
+    height: 1800px;
     overflow-y: auto;
 }
 
