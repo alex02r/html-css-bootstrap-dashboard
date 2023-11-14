@@ -39,6 +39,12 @@ header{
     padding: 10px;
 }
 
+/* HOVER EFFECT's */
+.sidebar-list ul li:hover{
+    background-color: rgba(148, 148, 148, 0.391);
+}
+
+
 @media screen and (min-width: 992px){
     .sidebar{
         width: 200px;
