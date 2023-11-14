@@ -4,3 +4,28 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header{
+    background: #fff;
+    height: 80px;
+}
+
+.sidebar{
+    width: 80px;
+    background-color: rgb(16, 16, 49);
+}
+.main-content{
+    background-color: aquamarine;
+    width: calc(100vw - 80px);
+    height: 800px;
+    overflow-y: auto;
+}
+
+@media screen and (min-width: 992px){
+    .sidebar{
+        width: 200px;
+    }
+    .main-content{
+        width: calc(100vw - 200px);
+    }
+}
