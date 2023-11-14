@@ -20,17 +20,12 @@ header{
 }
 .main-content{
     margin-top: 80px;
-    background-color: aquamarine;
     width: calc(100vw - 80px);
-    height: 1800px;
     overflow-y: auto;
 }
 
 .content-sidebar{
     margin: 10px 0;
-    height: 50px;
-    width: 50px;
-    background-color: #fff;
 }
 
 .top-main{
