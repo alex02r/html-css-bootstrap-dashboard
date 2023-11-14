@@ -33,6 +33,11 @@ header{
     background-color: #1B72E8;
 }
 
+.search-bar{
+    background-color: rgb(225, 225, 225);
+    border-radius: 10px;
+    padding: 10px;
+}
 
 @media screen and (min-width: 992px){
     .sidebar{
