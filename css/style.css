@@ -33,10 +33,6 @@ header{
     overflow-y: auto;
 }
 
-.content-sidebar{
-    margin: 10px 0;
-}
-
 .top-main{
     background-color: #1B72E8;
 }
@@ -44,10 +40,8 @@ header{
     background-color: #165BBA;
 }
 
-.search-bar{
+.bg_serch-bar{
     background-color: rgb(225, 225, 225);
-    border-radius: 10px;
-    padding: 10px;
 }
 
 /* HOVER EFFECT's */
